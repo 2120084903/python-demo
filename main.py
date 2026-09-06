@@ -1,7 +1,6 @@
+def main(name, age):
+    print(f"Hello, {name}! You are {age} years old.")
 
-
-def main():
-    print("Hello, World!")
 
 if __name__ == "__main__":
-    main()
+    main(name="Alice", age=30)
